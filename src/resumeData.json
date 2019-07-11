@@ -1,0 +1,39 @@
+{
+  "main": {
+    "name": "Mae Hoad",
+    "occupation": "A student at Carngeige Mellon University",
+    "description": "Major in Electrical and Computer Engineering",
+    "bio": "I'm an archer, tennis player, runner, painter",
+    "contactmessage": "Please use the contact information below to get into contact with me",
+    "email": "maehoad@gmail.com",
+    "phone": "555-555-5555",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Pittsburgh, Pennsylvania",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/mae.hoad.7",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/mae-hoad-018887170/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/maehoad/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/maehoad",
+        "className": "fa fa-github"
+      }
+    ]
+  }
+}
