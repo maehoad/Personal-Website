@@ -4,7 +4,20 @@
     "image": "profilepic.jpg",
     "occupation": "A student at Carngeige Mellon University",
     "description": "Major in Electrical and Computer Engineering",
-    "bio": "I'm an archer, tennis player, runner, painter",
+    "bio": {
+      "intro": "I'm Mae. A student at Carnegie Mellon University studying Electrical and Comptuer Engineering with a software focus. I'm also an archer, tennis player, runner, painter, and peanut butter lover.",
+      "projects": "My recent projects (this website including!) have been completed with React. My skills using this framework were developed in a software engineering intership at Call Levels in Singapore. I also developed an application called NextUP using react alongside a team in which we won third place in a CMU Computer Science Hackathon.",
+      "women": "I'm currently on the board of Women in Electrical and Computer Engineering (WinECE) at my university and have been involved with Women for Women Internation as the president of a satellite of (WfW) at my highschool.",
+      "art": "I love developing and creating not just with code, but also with paint and a paintbrush",
+      "travel": "I also love tyring new things and experiencing different cultures. I've traveled to over 15 countries and plant o "
+    },
+
+    "linksBio": {
+      "WfW": "https://www.womenforwomen.org/blogs/youth-have-power-change-world",
+      "resumeDownload": "/resumeDownload.pdf",
+      "ECE": "https://www.ece.cmu.edu/index.html",
+      "call-levles": "https://www.call-levels.com/"
+    },
     "contactmessage": "Please use the contact information below to get into contact with me",
     "email": "maehoad@gmail.com",
     "phone": "555-555-5555",
@@ -99,31 +112,109 @@
   },
   "fun": {},
   "art": {
+    "artBio": "Before my passion for computers and developing I enjoyed a different form of creation: art. When I wasn't in our high school computer lab, I could be found in my garage, using my archery target as a easle for my paintings. Most of my art is inspired from places that I've traveled to.",
     "images": [
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" },
-      { "name": "Dream Catcher", "url": "/images/art1.jpg" },
-      { "name": "hello", "url": "/images/art2.jpg" }
+      {
+        "name": "Esther In Thailand",
+        "url": "/images/Art/esther.jpg",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "Dream Catcher",
+        "url": "/images/Art/dreamcatcher.jpg",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "Monteriggioni",
+        "url": "/images/Art/Monteriggioni.png",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "Tetons",
+        "url": "/images/Art/tetons.jpg",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "Lady and the Plant",
+        "url": "/images/Art/lady-and-the-plant.jpg",
+        "medium": "oil pastel and pencil on paper"
+      },
+      {
+        "name": "Sunflowers",
+        "url": "/images/Art/sunflowers.jpg",
+        "medium": "acrylic on canvas"
+      },
+
+      {
+        "name": "Red Sky",
+        "url": "/images/Art/desert.jpg",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "A Kind of Sunrise",
+        "url": "/images/Art/sunrise-geometric.jpg",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "Sunflowers II",
+        "url": "/images/Art/sunflowers-watercolor.jpg",
+        "medium": "watercolor on paper"
+      },
+      {
+        "name": "Sun and Ocean",
+        "url": "/images/Art/sun-ocean.jpg",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "Lilies",
+        "url": "/images/Art/plant-watercolor.jpg",
+        "medium": "watercolor on paper"
+      },
+      {
+        "name": "Paper Cranes",
+        "url": "/images/Art/paper-cranes.jpeg",
+        "medium": "charcoal on paper"
+      },
+      {
+        "name": "Yellowstone Pool",
+        "url": "/images/Art/yellowstone-pool.jpg",
+        "medium": "oil on canvas"
+      },
+      {
+        "name": "My Secret Garden",
+        "url": "/images/Art/my-secret-garden.jpg",
+        "medium": "pastel, pencil, and charcoal on paper"
+      },
+      {
+        "name": "Aurora",
+        "url": "/images/Art/aurora.jpg",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "Spring Blossums",
+        "url": "/images/Art/asian-watercolor.jpg",
+        "medium": "watercolor on paper"
+      },
+      {
+        "name": "Apple",
+        "url": "/images/Art/apple.jpg",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "Alter-Ego",
+        "url": "/images/Art/alter-ego.jpg",
+        "medium": "acrylic on canvas"
+      },
+      {
+        "name": "Illusions",
+        "url": "/images/Art/illusion-brick.jpg",
+        "medium": "acrylic on brick"
+      },
+      {
+        "name": "Tree Time",
+        "url": "/images/Art/tree-seasons.jpg",
+        "medium": "watercolor on paper"
+      }
     ]
   }
 }

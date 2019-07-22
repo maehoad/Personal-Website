@@ -8,7 +8,7 @@ class Footer extends Component {
         return (
           <li key={network.name}>
             <a href={network.url} target="_blank">
-              <h3>{network.name} </h3>
+              <i className={network.className} />
             </a>
           </li>
         );
