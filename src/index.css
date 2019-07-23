@@ -253,71 +253,7 @@ ul#nav li a:hover {
 
 #resume {
   background: #fff;
-  padding-top: 90px;
-  padding-bottom: 72px;
-  overflow: hidden;
   margin: 5%;
-}
-
-#resume a,
-#resume a:visited {
-  color: #11abb0;
-}
-#resume a:hover,
-#resume a:focus {
-  color: #313131;
-}
-
-#resume h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-#resume h1 span {
-  border-bottom: 3px solid #11abb0;
-  padding-bottom: 6px;
-}
-#resume h3 {
-  font: 25px/30px "opensans-bold", sans-serif;
-}
-
-#resume .header-col {
-  padding-top: 9px;
-}
-#resume .main-col {
-  padding-right: 10%;
-}
-
-.education,
-.work {
-  margin-bottom: 48px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #e8e8e8;
-}
-#resume .info {
-  font: 16px/24px "librebaskerville-italic", serif;
-  color: #6e7881;
-  margin-bottom: 18px;
-  margin-top: 9px;
-}
-#resume .info span {
-  margin-right: 5px;
-  margin-left: 5px;
-}
-#resume .date {
-  font: 15px/24px "opensans-regular", sans-serif;
-  margin-top: 6px;
-}
-
-/*----------------------------------------------*/
-/*	Skill Bars
-/*----------------------------------------------*/
-
-#resume {
-  background: #fff;
-  padding-top: 90px;
-  padding-bottom: 72px;
-  overflow: hidden;
 }
 
 #resume a,
@@ -391,9 +327,8 @@ footer a,
 footer a:visited {
   color: #525252;
 }
-footer a:hover,
-footer a:focus {
-  color: #fff;
+footer a:hover {
+  color: rgb(201, 160, 194);
 }
 
 /* copyright */
@@ -436,37 +371,6 @@ footer .social-links li {
 
 footer .social-links li:first-child {
   margin-left: 0;
-}
-/* TODO no go to top functionality - may not include */
-
-/* Go To Top Button  Code from Tim Baker GitHub*/
-#go-top {
-  position: absolute;
-  top: -24px;
-  left: 50%;
-  margin-left: -30px;
-}
-#go-top a {
-  text-decoration: none;
-  border: 0 none;
-  display: block;
-  width: 45px;
-  height: 45px;
-  background-color: #525252;
-
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-
-  color: #fff;
-  font-size: 21px;
-  line-height: 30px;
-  border-radius: 100%;
-}
-#go-top a:hover {
-  background-color: #0f9095;
 }
 
 /* ------------------------------------------------------------------ */

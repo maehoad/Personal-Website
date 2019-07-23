@@ -29,6 +29,8 @@ class About extends Component {
             <p>{bio.intro}</p>
             <p> {bio.projects}</p>
             <p> {bio.women}</p>
+            <p> {bio.art} </p>
+            <p> {bio.travel}</p>
 
             <div className="row">
               <div className="columns download">

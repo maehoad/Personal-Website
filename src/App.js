@@ -6,7 +6,7 @@ import Header from "./Components/Header";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Contact from "./Components/Contact";
-import Resume from "./Components/Resume";
+import Work from "./Components/Work";
 import Home from "./Components/Home";
 import Art from "./Components/Art";
 
@@ -26,8 +26,8 @@ class App extends Component {
   render() {
     return (
       <Router history={history}>
-        <Header data={data.main} />
         {/* {this.state.home && <Home data={this.state.resumeData.main} />} */}
+        <Header {...history} data={data.main} />
         <Switch>
           <Route
             exact
@@ -46,8 +46,8 @@ class App extends Component {
           />
           <Route
             exact
-            path={"/Resume"}
-            render={props => <Resume {...props} data={data.resume} />}
+            path={"/Work"}
+            render={props => <Work {...props} data={data.resume} />}
           />
 
           <Route

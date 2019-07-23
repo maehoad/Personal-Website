@@ -53,30 +53,47 @@
   "resume": {
     "education": [
       {
-        "school": "University",
+        "school": "Carnegie Mellon University",
         "degree": "Electrical and Computer Engineering",
         "graduated": "Began: August 2018",
         "description": "Buggy, Tennis, Robotics"
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Call Levels Singapore",
+        "title": "Software Engineering Intern",
+        "years": "July 2019 - August 2019",
+        "description": "Developed web-based Call Levels aaplication using React on a firebase platform.",
+        "info": "Working abroad was a tremendous experience being immersed in a different culture. Here, I learned React and was able to create this website. "
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Fundamentals of Computer Science 15-112",
+        "title": "Teaching Assistant",
+        "years": "January 2019 - May 2019",
+        "description": "Taught fundamentals of programming and computer science in python.",
+        "info": "I was fortunate to teach our largest intro course at CMU, and ranked as one of the top 5 CS course in the US. Teaching was one of my favorite experience and from taking the course to teaching was a rewarding journey."
+      },
+      {
+        "company": "Centercourt Athletic Club",
+        "title": "Tennis Coach",
+        "years": "Summers from 2015-2017",
+        "description": "Coached for 30 kids, ages 5-8, teaching the fundamentals of tennis",
+        "info": "Although a different medium of material from computer science, and audience of students, this experience was still just as valuble. Engaging with children for seven hours a day taught me skills of patience, kindness, and enjoyment."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Shot Tracker",
+        "description": "Developed web-based Call Levels aaplication using React on a firebase platform.",
+        "info": "Working abroad was a tremendous experience being immersed in a different culture. Here, I learned React and was able to create this website.",
+        "link": "https://www.youtube.com/watch?v=R_MAYtRZYOA&t=31s"
+      },
+      {
+        "name": "NextUp",
+        "description": "Application that allows for group queuing utilizing Spotipy API library in python with a Reaact front end running in tandem with a Flask  ",
+        "info": "I created this app with a team during a Carnegie Mellon Computer Science Hackaton in which we on 3rd place. The inspirationw as to eliminate disparities between user songs ",
+        "link": "https://www.youtube.com/watch?v=HHri_RStHRk"
       }
     ],
     "skills": [

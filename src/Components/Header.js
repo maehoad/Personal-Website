@@ -1,7 +1,20 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 
 class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      current: this.props.location.pathname
+    };
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.location.pathname !== prevProps.location.pathname) {
+      this.setState({ current: this.props.location.pathname });
+    }
+  }
+
   render() {
     if (this.props.data) {
       var networks = this.props.data.social.map(function(network) {
@@ -18,19 +31,19 @@ class Header extends Component {
     return (
       <nav id="nav-wrap">
         <ul id="nav" className="nav">
-          <li className="current">
+          <li className={this.state.current === "/Home" && "current"}>
             <Link to="Home"> Home</Link>
           </li>
-          <li>
+          <li className={this.state.current === "/About" && "current"}>
             <Link to="About"> About</Link>
           </li>
-          <li>
-            <Link to="Resume"> Resume</Link>
+          <li className={this.state.current === "/Work" && "current"}>
+            <Link to="Work"> Work</Link>
           </li>
-          <li>
+          <li className={this.state.current === "/Art" && "current"}>
             <Link to="Art"> Art</Link>
           </li>
-          <li>
+          <li className={this.state.current === "/Contact" && "current"}>
             <Link to="Contact">Contact</Link>
           </li>
         </ul>
@@ -39,4 +52,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default withRouter(Header);
