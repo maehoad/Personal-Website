@@ -10,23 +10,24 @@ class Header extends Component {
   }
 
   componentDidUpdate(prevProps) {
+    console.log(this.props.location.pathname);
     if (this.props.location.pathname !== prevProps.location.pathname) {
       this.setState({ current: this.props.location.pathname });
     }
   }
 
   render() {
-    if (this.props.data) {
-      var networks = this.props.data.social.map(function(network) {
-        return (
-          <li key={network.name}>
-            <a href={network.url} target="_blank">
-              <h3>{network.name} </h3>
-            </a>
-          </li>
-        );
-      });
-    }
+    // if (this.props.data) {
+    //   var networks = this.props.data.social.map(function(network) {
+    //     return (
+    //       <li key={network.name}>
+    //         <a href={network.url} target="_blank">
+    //           <h3>{network.name} </h3>
+    //         </a>
+    //       </li>
+    //     );
+    //   });
+    // }
 
     return (
       <nav id="nav-wrap">

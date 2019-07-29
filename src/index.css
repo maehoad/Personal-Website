@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+html,
+body,
+#root {
+  height: 100%;
+  background: white;
+  flex-direction: column;
+}
 
+#root {
+  display: flex;
+}
 body {
   min-height: 100%;
   margin: 0;
@@ -395,7 +405,6 @@ footer .social-links li:first-child {
 .google-map {
   min-height: 100%;
   background-color: #5c6b6b;
-  height: 400px;
 }
 
 body {
@@ -415,16 +424,15 @@ code {
     monospace;
 }
 
-html,
-body,
-#root {
-  height: 100%;
-  background: white;
-  flex-direction: column;
-}
-
-#root {
-  display: flex;
+iframe {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
 }
 
 /* ------------------------------------------------------------------ */

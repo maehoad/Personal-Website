@@ -9,7 +9,9 @@
       "projects": "My recent projects (this website including!) have been completed with React. My skills using this framework were developed in a software engineering intership at Call Levels in Singapore. I also developed an application called NextUP using react alongside a team in which we won third place in a CMU Computer Science Hackathon.",
       "women": "I'm currently on the board of Women in Electrical and Computer Engineering (WinECE) at my university and have been involved with Women for Women Internation as the president of a satellite of (WfW) at my highschool.",
       "art": "I love developing and creating not just with code, but also with paint and a paintbrush",
-      "travel": "I also love tyring new things and experiencing different cultures. I've traveled to over 15 countries and plant o "
+      "travel": "I also love tyring new things and experiencing different cultures. I've traveled to over 15 countries and plant o ",
+      "adventurer": "Alive skydiver and aspiring bungy jumper also prone to fear of falling. BUGGY!",
+      "hiker": "all hikes, especially, climb mt. rainer... dream to hike mt. fuji"
     },
 
     "linksBio": {
@@ -75,6 +77,13 @@
         "info": "I was fortunate to teach our largest intro course at CMU, and ranked as one of the top 5 CS course in the US. Teaching was one of my favorite experience and from taking the course to teaching was a rewarding journey."
       },
       {
+        "company": "Stevens Institute of Technology",
+        "title": "Electrical Engineering Intern",
+        "years": "July 2017 - August 2017",
+        "description": "Worked with Dr. Dov Kruger designing an automated boat and experimented in 3D printing and CAD",
+        "info": "This experience came after an Engineering and Science program at Stevens Institute of Technology."
+      },
+      {
         "company": "Centercourt Athletic Club",
         "title": "Tennis Coach",
         "years": "Summers from 2015-2017",
@@ -94,36 +103,6 @@
         "description": "Application that allows for group queuing utilizing Spotipy API library in python with a Reaact front end running in tandem with a Flask  ",
         "info": "I created this app with a team during a Carnegie Mellon Computer Science Hackaton in which we on 3rd place. The inspirationw as to eliminate disparities between user songs ",
         "link": "https://www.youtube.com/watch?v=HHri_RStHRk"
-      }
-    ],
-    "skills": [
-      {
-        "name": "Git",
-        "level": "60%"
-      },
-      {
-        "name": "Illustrator",
-        "level": "55%"
-      },
-      {
-        "name": "ReactJs",
-        "level": "50%"
-      },
-      {
-        "name": "CSS",
-        "level": "90%"
-      },
-      {
-        "name": "HTML5",
-        "level": "80%"
-      },
-      {
-        "name": "VueJs",
-        "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
       }
     ]
   },
